@@ -1,0 +1,124 @@
+/* Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilo para o Body */
+  body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Estilo para o Container Principal */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Estilo para Títulos */
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 20px;
+    color: #222;
+  }
+  
+  /* Estilo para Parágrafos */
+  p {
+    margin-bottom: 15px;
+  }
+  
+  /* Estilo para Listas */
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li {
+    padding: 10px;
+    background-color: #e2e2e2;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Botão Genérico */
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilo para Tabelas */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table th,
+  table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Estilo para Formulários */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input,
+  form select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form input:focus,
+  form select:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Estilo para Mensagens de Erro */
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  /* Estilo para Mensagens de Sucesso */
+  .success-message {
+    color: green;
+    margin-top: 5px;
+  }
+  
